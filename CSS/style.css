@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+/* css reset */
+*{
+    padding : 0;
+    margin :0;
+    font-size: 100%;
+    line-height: 1em;
+}
+
+   /*default styles for whole page*/
+body {
+    color: white;
+    border-color: #101010;
+    background-color: green;
+}
+
+
+/* content container to centre content */
+.container {
+    max-width: 1020px;
+    margin: 0 auto 0 auto;
+}
+
+
+
+/* Default styling for Headings */
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Niconne", Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.1;
+    font-weight: 700;
+}
+h1 {
+    font-size: 4.25rem;
+    margin-bottom: 2rem;
+}
+h2 {
+    font-size: 2.25rem;
+    margin-bottom: .5rem;
+}
+h3 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    }
+h4 {
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+ /* Paragraphs */
+ p {
+    font-family: "Roboto Serif", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+    font-style: normal;
+}
+.title {
+    background-color:white;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.title h1, .title h2 {
+    color:green;
+}
+.header-image {
+   object-fit: cover;
+   width:100%;
+   max-height: 500px;
+}
+
+
+
+/* hyperlinks */
+a {
+    font-family:inherit;
+    font-size:inherit;
+    line-height: inherit;
+    color: white;
+ }
+
+a:hover {
+    color:#00447B;
+}
+
+a:visited {
+    color:white;
+}
+
+
+
+/* lists */
+ul {
+    list-style: disc outside;
+    margin-bottom: 1.5rem;
+    margin-left: 1.25rem;
+}
+ul li {
+    font-family: "Roboto Serif", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 1.125rem;
+    margin-bottom: .5rem;
+    
+}
+
