@@ -111,18 +111,42 @@ h4 {
     color:rgb(0, 51, 0);
 }
 .header-image {
-   object-fit: cover;
-   width:100%;
-   max-height: 500px;
+    object-fit: cover;
+     width:100%;
+     max-height: 500px;
+     padding-top: 3rem;
+     padding-bottom: 0.5rem;
+     padding-left: 0.5rem;
+     padding-right: 0.1rem;
+
+}
+.bruno {
+    padding-top: 3rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.1rem;
 }
 .introduction {
     background-color: ghostwhite;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.1rem;
+    max-width: fit-content;
+    margin: 0 auto 0 auto;
+
 }
 .introduction {
     color:rgb(0, 51, 0);
+    font-weight:700;
+    font-style:italic;
 }
+.bold-italic {
+    font-weight:700;
+    
+    font-style:italic;
+    
+    }
 .body-image {
     object-fit: cover;
     width:100%;
